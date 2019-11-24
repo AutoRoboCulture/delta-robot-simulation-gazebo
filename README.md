@@ -1,4 +1,4 @@
-# Delta-robot-simulation-gazebo
+# Delta Robot Simulation on Gazebo using MARA-Env
 
 Delta robot pick and place simulation in Gazebo 9.0.0 using MARA environment
 
