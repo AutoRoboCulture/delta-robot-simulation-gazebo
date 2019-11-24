@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <author>VCGLab</author>
+            <authoring_tool>VCGLib | MeshLab</authoring_tool>
+        </contributor>
+        <up_axis>Y_UP</up_axis>
+        <created>Τρί Δεκ 13 19:47:12 2016</created>
+        <modified>Τρί Δεκ 13 19:47:12 2016</modified>
+    </asset>
+    <library_images/>
+    <library_materials/>
+    <library_effects/>
+    <library_geometries>
+        <geometry id="shape0-lib" name="shape0">
+            <mesh>
+                <source id="shape0-lib-positions" name="position">
+                    <float_array id="shape0-lib-positions-array" count="111">150 259.808 0 160 0 0 160 0 10 113.301 96.2436 10 140 0 10 140 50 10 160 50 10 176.699 113.564 10 186.699 96.2436 0 220 138.564 0 140 50 0 113.301 96.2436 0 123.301 113.564 0 176.699 113.564 0 70 121.244 0 70 121.244 10 0 0 0 300 0 10 230 121.244 0 300 0 0 150 259.808 10 80 138.564 0 0 0 10 70 121.244 -3.46945e-15 113.301 96.2436 -3.46945e-15 123.301 113.564 -3.46945e-15 123.301 113.564 10 80 138.564 10 80 138.564 -3.46945e-15 160 50 0 140 0 0 220 138.564 10 186.699 96.2436 10 176.699 113.564 -3.46945e-15 186.699 96.2436 -3.46945e-15 230 121.244 10 230 121.244 -3.46945e-15</float_array>
+                    <technique_common>
+                        <accessor count="37" source="#shape0-lib-positions-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="shape0-lib-normals" name="normal">
+                    <float_array id="shape0-lib-normals-array" count="168">0.866025 0.5 0 0.866025 0.5 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.866025 0.5 0 -0.866025 0.5 0 0.866025 0.5 0 0.866025 0.5 0 -0.866025 0.5 0 -0.866025 0.5 0 0 -1 0 0 -1 0 0.5 0.866025 0 0.5 0.866025 0 -0.866025 0.5 0 -0.866025 0.5 0 -0.5 -0.866025 0 -0.5 -0.866025 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 1 0 0 1 0 0 0.5 -0.866025 0 0.5 -0.866025 0 0.866025 0.5 0 0.866025 0.5 0 -0.5 0.866025 0 -0.5 0.866025 0</float_array>
+                    <technique_common>
+                        <accessor count="56" source="#shape0-lib-normals-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="shape0-lib-vcolor" name="vcolor">
+                    <float_array id="shape0-lib-vcolor-array" count="111">1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0</float_array>
+                    <technique_common>
+                        <accessor count="37" source="#shape0-lib-vcolor-array" stride="3">
+                            <param name="R" type="float"/>
+                            <param name="G" type="float"/>
+                            <param name="B" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="shape0-lib-vertices">
+                    <input semantic="POSITION" source="#shape0-lib-positions"/>
+                </vertices>
+                <triangles count="56">
+                    <input offset="0" semantic="VERTEX" source="#shape0-lib-vertices"/>
+                    <input offset="1" semantic="COLOR" source="#shape0-lib-vcolor"/>
+                    <input offset="2" semantic="NORMAL" source="#shape0-lib-normals"/>
+                    <p>9 9 0 0 0 0 31 31 0 31 31 1 0 0 1 20 20 1 19 19 2 17 17 2 1 1 2 1 1 3 17 17 3 2 2 3 3 3 4 15 15 4 22 22 4 20 20 5 27 27 5 26 26 5 22 22 6 4 4 6 3 3 6 3 3 7 4 4 7 5 5 7 3 3 8 5 5 8 26 26 8 26 26 9 5 5 9 6 6 9 26 26 10 6 6 10 20 20 10 17 17 11 35 35 11 2 2 11 2 2 12 35 35 12 32 32 12 2 2 13 32 32 13 6 6 13 6 6 14 32 32 14 7 7 14 6 6 15 7 7 15 20 20 15 20 20 16 7 7 16 31 31 16 8 8 17 18 18 17 19 19 17 10 10 18 30 30 18 16 16 18 19 19 19 1 1 19 8 8 19 8 8 20 1 1 20 29 29 20 8 8 21 29 29 21 13 13 21 21 21 22 0 0 22 12 12 22 12 12 23 0 0 23 9 9 23 16 16 24 14 14 24 10 10 24 10 10 25 14 14 25 11 11 25 10 10 26 11 11 26 29 29 26 29 29 27 11 11 27 12 12 27 29 29 28 12 12 28 13 13 28 13 13 29 12 12 29 9 9 29 14 14 30 16 16 30 15 15 30 15 15 31 16 16 31 22 22 31 35 35 32 17 17 32 18 18 32 18 18 33 17 17 33 19 19 33 27 27 34 20 20 34 21 21 34 21 21 35 20 20 35 0 0 35 4 4 36 22 22 36 30 30 36 30 30 37 22 22 37 16 16 37 15 15 38 3 3 38 23 23 38 23 23 39 3 3 39 24 24 39 3 3 40 26 26 40 24 24 40 24 24 41 26 26 41 25 25 41 26 26 42 27 27 42 25 25 42 25 25 43 27 27 43 28 28 43 2 2 44 6 6 44 1 1 44 1 1 45 6 6 45 29 29 45 6 6 46 5 5 46 29 29 46 29 29 47 5 5 47 10 10 47 5 5 48 4 4 48 10 10 48 10 10 49 4 4 49 30 30 49 31 31 50 7 7 50 9 9 50 9 9 51 7 7 51 13 13 51 7 7 52 32 32 52 33 33 52 33 33 53 32 32 53 34 34 53 32 32 54 35 35 54 34 34 54 34 34 55 35 35 55 36 36 55</p>
+                </triangles>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="VisualSceneNode" name="VisualScene">
+            <node id="node" name="node">
+                <instance_geometry url="#shape0-lib">
+                    <bind_material>
+                        <technique_common/>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#VisualSceneNode"/>
+    </scene>
+</COLLADA>
