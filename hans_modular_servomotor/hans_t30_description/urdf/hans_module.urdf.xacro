@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro"
+       name="robotiq_hande" >
+
+  <xacro:include filename="$(find hans_t30_description)/urdf/hans_t30.urdf.xacro" />
+  <xacro:hans30 prefix=""/>
+
+  <link name="world" />
+
+  <joint name="world_to_hande_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0.5"/>
+    <parent link="world"/>
+    <child link="motor1_link"/>
+  </joint>
+
+</robot>
