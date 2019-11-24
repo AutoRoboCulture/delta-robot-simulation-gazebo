@@ -4,13 +4,14 @@ Delta robot pick and place simulation in Gazebo 9.0.0 using MARA environment
 
 ![](demo/DeltaRobotPickandplaceapplication.gif)
 
-Tested on ROS2 Crystal and Gazebo 9.0.0
-Download zip file: https://github.com/AcutronicRobotics/MARA/releases/tag/crystal-v1.0.0
 
-# Install Prerequisites 
+# Tested on ROS2 Crystal and Gazebo 9.0.0
+Download ROS2 MARA workspace (zip) file: https://github.com/AcutronicRobotics/MARA/releases/tag/crystal-v1.0.0
+
+# Install Prerequisites
 Follow this well documented steps from MARA repo: https://github.com/AcutronicRobotics/MARA/tree/crystal
 
-# ROS2Learn
+# ROS2Learn for environment and RL algorithm
 Follow this step for installation: https://github.com/AcutronicRobotics/ros2learn/tree/crystal
 
 # Steps Before Run
