@@ -44,4 +44,6 @@ Follow this step for installation: https://github.com/AcutronicRobotics/ros2lear
    python3 ros2learn/environments/gym-gazebo2/examples/MARA/delta_arm.py -g
 ```
 # References
-Rotary Delta Robot Forward/Inverse Kinematics Calculations are taken from https://www.marginallyclever.com/other/samples/fk-ik-test.html
+Rotary Delta Robot Forward/Inverse Kinematics Calculations are taken from `https://www.marginallyclever.com/other/samples/fk-ik-test.html`
+
+MARA Robot RL algo implementation `https://github.com/AcutronicRobotics/gym-gazebo2`
