@@ -45,6 +45,10 @@ Follow this step for installation: https://github.com/AcutronicRobotics/ros2lear
    python3 ros2learn/environments/gym-gazebo2/examples/MARA/delta_arm.py -g
 ```
 # References
-Rotary Delta Robot Forward/Inverse Kinematics Calculations are taken from https://www.marginallyclever.com/other/samples/fk-ik-test.html
+1. [Rotary Delta Robot Forward/Inverse Kinematics Calculations](https://www.marginallyclever.com/other/samples/fk-ik-test.html)
 
-MARA Robot RL algo implementation https://github.com/AcutronicRobotics/gym-gazebo2
+2. [MARA Robot RL algo implementation](https://github.com/AcutronicRobotics/gym-gazebo2)
+
+3. [Train Mask-RCNN model on Custom Dataset for Multiple Objects](https://github.com/AutoRoboCulture/mask-rcnn-for-multiple-objects.git)
+
+4. [Weed removal robot using Delta Arm](https://github.com/AutoRoboCulture/nindamani-the-weed-removal-robot.git)
