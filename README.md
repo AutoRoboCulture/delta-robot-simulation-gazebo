@@ -34,11 +34,12 @@ Follow this step for installation: https://github.com/AcutronicRobotics/ros2lear
    - `cp urdf/arc_delta_onTable.urdf ~/ros2_mara_ws/src/mara/mara_description/urdf/reinforcement_learning/.`
    
 7. Copy **libdeltaKinematics.so** from delta_kinematic_lib folder and move to **~/ros2_mara_ws/install/lib**
+(Note: make sure you have build ros2_mara_ws before this command)
    - `cp delta_kinematic_lib/libdeltaKinematics.so ~/ros2_mara_ws/install/lib/.`
-   
+ 
 ## Compile and Launch ROS2 Delta Robot Simulation
 ```
-   source /home/nihar/ros2learn/environments/gym-gazebo2/provision/mara_setup.sh
+   source ~/ros2learn/environments/gym-gazebo2/provision/mara_setup.sh
    cd ros2_mara_ws
    colcon build && cd
    python3 ros2learn/environments/gym-gazebo2/examples/MARA/delta_arm.py -g
