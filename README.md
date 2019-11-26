@@ -36,6 +36,12 @@ Follow this step for installation: https://github.com/AcutronicRobotics/ros2lear
 7. Copy **libdeltaKinematics.so** from delta_kinematic_lib folder and move to **~/ros2_mara_ws/install/lib**
    - `cp delta_kinematic_lib/libdeltaKinematics.so ~/ros2_mara_ws/install/lib/.`
    
-   
+## Compile and Launch ROS2 Delta Robot Simulation
+```
+   source /home/nihar/ros2learn/environments/gym-gazebo2/provision/mara_setup.sh
+   cd ros2_mara_ws
+   colcon build && cd
+   python3 ros2learn/environments/gym-gazebo2/examples/MARA/delta_arm.py -g
+```
 # References
 Rotary Delta Robot Forward/Inverse Kinematics Calculations are taken from https://www.marginallyclever.com/other/samples/fk-ik-test.html
